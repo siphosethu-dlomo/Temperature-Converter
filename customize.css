@@ -1,0 +1,29 @@
+:root {
+  --bg-color: rgba(86, 38, 150, 0.486);
+  --text-color: #ebe7a1;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(99, 40, 167, 0.712);
+} 
+
+.center-text {
+  text-align: center;
+}
+
+main {
+  margin-top: 70px;
+}
+
+.card-bg {
+  background-color: var(--bg-color);
+}
+
+input[placeholder], input[type] {
+  text-align: center;
+}
